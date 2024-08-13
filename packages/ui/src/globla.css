@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+body{
+    /* background-color: #FFEEEE;
+    background-color: #FFF6EA;
+    background-color: #FEFAF6;
+    background-color: #021526;
+    background-color: #0e121a; 
+    background-color: #190720;
+    background-color: #F8EDED;
+    background-color: #522258;
+    background-color: #8C3061;
+    background-color: #F3EEEA;
+    background-color: #201E43;
+    background-color: #134B70;
+    
+    background-color: #01204E;
+    background-color: #222831;
+    background-color: #605295; */
+
+    background-color: #ebe3c0; /*use*/
+    background-color: #959645; /*use*/
+    background-color: #151515;  /*use*/
+    background-color: #EEEEEE  /*use*/;
+    /* background-color: #0f0f0f; */
+    /* background-color: #010b12; */
+    background-color: #0e0f0f;
+
+    /* background-color: #0e0e0e; */
+
+    overflow-x: hidden;
+
+} 

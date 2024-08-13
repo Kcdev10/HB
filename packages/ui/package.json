@@ -1,0 +1,38 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./tailwind.config": "./tailwind.config.js",
+    "./postcss.config": "./postcss.config.js",
+    "./components": "./src/components/*.tsx",
+    "./global.css": "./src/globla.css"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^1.12.4",
+    "@types/eslint": "^8.56.5",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@types/three": "^0.166.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-three/fiber": "^8.16.8",
+    "gsap": "^3.12.5",
+    "react": "^18.2.0",
+    "lenis": "^1.1.9",
+    "three": "^0.166.1"
+  }
+}
