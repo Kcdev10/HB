@@ -41,7 +41,7 @@ const projectDetails = [
   // },
 ];
 
-export default function projects() {
+export default function Projects() {
   const [index, setIndex] = useState(-1);
 
   useEffect(() => {

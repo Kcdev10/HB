@@ -5,8 +5,8 @@
   "exports": {
     "./tailwind.config": "./tailwind.config.js",
     "./postcss.config": "./postcss.config.js",
-    "./components": "./src/components/*.tsx",
-    "./global.css": "./src/globla.css"
+    "./components/*": "./src/components/*.tsx",
+    "./global.css": "./src/globla.css" 
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
