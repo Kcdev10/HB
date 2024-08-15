@@ -38,3 +38,7 @@ body{
     overflow-x: hidden;
 
 } 
+
+.stroke{
+    -webkit-text-stroke: 2px rgba(133, 133, 133, 0.622);
+}
