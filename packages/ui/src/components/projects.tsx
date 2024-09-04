@@ -5,6 +5,13 @@ import Link from "next/link";
 
 const projectDetails = [
   {
+    title: "Snippethub Website",
+    img: "https://images.unsplash.com/photo-1519043916581-33ecfdba3b1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGluZnJhc3RydWN0dXJlfGVufDB8fDB8fHww",
+    src: "https://snippethub-gfub.vercel.app/",
+    category: "Developer Tools",
+    date: "2024",
+  },
+  {
     title: "Infrastructure Website",
     img: "https://images.unsplash.com/photo-1519043916581-33ecfdba3b1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGluZnJhc3RydWN0dXJlfGVufDB8fDB8fHww",
     src: "https://dkumargroup.com/",

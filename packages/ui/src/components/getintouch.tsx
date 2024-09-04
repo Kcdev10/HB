@@ -7,7 +7,7 @@ export default function Getintouch() {
     const t1 = gsap.timeline({
       scrollTrigger: {
         trigger: "#curve-container",
-        start: "0% 65%",
+        start: "0% 85%",
         end: "400% 70%",
         // markers: true,
         // pin: true,
@@ -132,7 +132,8 @@ export default function Getintouch() {
               className="h-[0%] w-full mx-auto bg-[#1A1A1A] absolute overflow-hidden flex justify-center items-center rounded-md"
             >
               <form
-                action=""
+                action="https://formbold.com/s/3G5LP"
+                method="POST"
                 className="flex flex-col gap-5 md:w-[50%] w-full border border-white/10 shadow-md shadow-white/10 p-6 rounded-md mx-auto"
               >
                 <h2 className="capitalize md:text-[2vw] text-[8vw] font-semibold text-white">
@@ -141,23 +142,26 @@ export default function Getintouch() {
                 <input
                   type="text"
                   placeholder="Name"
+                  name="Name"
                   className="px-2 py-3 rounded-sm outline-none bg-[#dadada] text-slate-700 placeholder:text-black/70"
                 />
                 <input
                   type="text"
                   placeholder="Eamil"
+                  name="Email"
                   className="px-2 py-3 rounded-sm outline-none bg-[#dadada] text-slate-700 placeholder:text-black/70"
                 />
                 <input
                   type="text"
                   placeholder="Contact"
+                  name="Contact"
                   className="px-2 py-3 rounded-sm outline-none bg-[#dadada] text-slate-700 placeholder:text-black/70"
                 />
 
                 <input
                   type="submit"
                   value={"submit"}
-                  className="px-2 py-3 bg-white text-red-500 font-bold capitalize w-1/3"
+                  className="px-2 py-3 bg-white text-red-500 font-bold capitalize w-1/3 cursor-pointer"
                 />
               </form>
             </div>
